@@ -1,0 +1,15 @@
+.titulo{
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.botao{
+	width: 100%;
+}
+
+html,body{
+	background-image: url('https://i.pinimg.com/originals/3c/55/14/3c5514ec51d377145201b361b35b05a5.jpg');
+	font-family: "Lucida Sans", sans-serif;
+	margin: 1cm;
+}

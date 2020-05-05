@@ -1,0 +1,66 @@
+<link href="../Css/Menu.css" rel="stylesheet">
+
+<html lang="pt-br">
+	<head>
+  	<title>Menu</title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="titulo">
+		  	<h1>Menu</h1>
+		</div>
+		<br>
+		<form action="#" method="POST" id="formulario">
+			<div class="form-group">
+				<div class="row">
+					<div class="col-md-12">
+						<button type="button" id="cadastrar" class="btn btn-light botao" onclick="Editar();" title="Clique aqui para editar">
+							Editar
+						</button>	
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-md-12">
+						<button type="button" id="cadastrar" class="btn btn-light botao" onclick="Excluir();" title="Clique aqui para excluir">
+							Excluir
+						</button>	
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-md-12">
+						<button type="button" id="cadastrar" class="btn btn-light botao" onclick="Sair();" title="Clique aqui para sair">
+							Sair
+						</button>	
+					</div>
+				</div>
+			</div>
+		</form>
+	    <script type="text/javascript">
+	    
+	    	function Sair(){
+
+	    		location.href = 'Login.html';
+
+	    	}
+
+	    	function Excluir(){
+
+	    		location.href = '../../Controller/Excluir.php';
+	    	
+	    	}
+
+	    	function Editar(){
+
+	    		location.href = 'Editar.html';
+	    	
+	    	}
+
+	    </script>
+	</body>
+</html>

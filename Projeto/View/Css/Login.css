@@ -1,0 +1,42 @@
+.container{
+	height: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.texto-centro{
+	text-align: center;
+}
+
+.tamanho-letra{
+	font-size: 25px;
+}
+
+.cor-letra{
+	color: white;
+}
+
+.borda-texto{
+	text-shadow: 1px 0px 0px black, 
+	-1px 0px 0px black, 
+	0px 1px 0px black, 
+	0px -1px 0px black;
+}
+
+.campo-login{
+	height: 370px;
+	width: 400px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.botao{
+	float:right;
+	width: 100px;
+}
+
+html,body{
+	background-image: url('https://i.pinimg.com/originals/3c/55/14/3c5514ec51d377145201b361b35b05a5.jpg');
+	font-family: sans-serif;
+	margin-right: auto;
+}
